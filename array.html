@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+<script>
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits.toString();
+
+const fruit2 = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruit2.join(" * ");
+
+const fruit3 = ["Banana", "Orange", "Apple", "Mango"];
+fruit3.pop();
+
+const fruit4 = ["Banana", "Orange", "Apple", "Mango"];
+fruit4.push("Kiwi");
+
+const fruit5 = ["Banana", "Orange", "Apple", "Mango"];
+fruit5.shift();
+
+const fruit6 = ["Banana", "Orange", "Apple", "Mango"];
+fruit6.unshift("Lemon");
+
+const fruit7 = ["Banana", "Orange", "Apple", "Mango"];
+fruit7[fruit7.length] = "Kiwi";
+
+const fruit8 = ["Banana", "Orange", "Apple", "Mango"];
+delete fruit8[0];
+
+</script>
+</body>
+</html>
